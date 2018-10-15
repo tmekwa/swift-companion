@@ -12,6 +12,8 @@
 		E68FE772217496F500D24DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68FE770217496F500D24DE9 /* Main.storyboard */; };
 		E68FE774217496FD00D24DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68FE773217496FD00D24DE9 /* Assets.xcassets */; };
 		E68FE777217496FD00D24DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68FE775217496FD00D24DE9 /* LaunchScreen.storyboard */; };
+		E68FE79F2174C13500D24DE9 /* SearchResultsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FE79E2174C13500D24DE9 /* SearchResultsViewCell.swift */; };
+		E68FE7A12174C71D00D24DE9 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FE7A02174C71D00D24DE9 /* SearchResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		E68FE778217496FD00D24DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E68FE77D217496FD00D24DE9 /* CompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CompanionTests.xctest; path = "/goinfre/tmekwa/Desktop/Workspace/swift/Companion/42_companion/Companion/build/Debug-iphoneos/CompanionTests.xctest"; sourceTree = "<absolute>"; };
 		E68FE788217496FD00D24DE9 /* CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CompanionUITests.xctest; path = "/goinfre/tmekwa/Desktop/Workspace/swift/Companion/42_companion/Companion/build/Debug-iphoneos/CompanionUITests.xctest"; sourceTree = "<absolute>"; };
+		E68FE79E2174C13500D24DE9 /* SearchResultsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewCell.swift; sourceTree = "<group>"; };
+		E68FE7A02174C71D00D24DE9 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,12 +82,14 @@
 		E68FE76B217496F500D24DE9 /* Companion */ = {
 			isa = PBXGroup;
 			children = (
+				E68FE79E2174C13500D24DE9 /* SearchResultsViewCell.swift */,
 				E68FE76C217496F500D24DE9 /* AppDelegate.swift */,
 				E68FE76E217496F500D24DE9 /* ViewController.swift */,
 				E68FE770217496F500D24DE9 /* Main.storyboard */,
 				E68FE773217496FD00D24DE9 /* Assets.xcassets */,
 				E68FE775217496FD00D24DE9 /* LaunchScreen.storyboard */,
 				E68FE778217496FD00D24DE9 /* Info.plist */,
+				E68FE7A02174C71D00D24DE9 /* SearchResultsViewController.swift */,
 			);
 			path = Companion;
 			sourceTree = "<group>";
@@ -220,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E68FE76F217496F500D24DE9 /* ViewController.swift in Sources */,
+				E68FE7A12174C71D00D24DE9 /* SearchResultsViewController.swift in Sources */,
+				E68FE79F2174C13500D24DE9 /* SearchResultsViewCell.swift in Sources */,
 				E68FE76D217496F500D24DE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
