@@ -12,8 +12,6 @@
 		E68FE772217496F500D24DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68FE770217496F500D24DE9 /* Main.storyboard */; };
 		E68FE774217496FD00D24DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68FE773217496FD00D24DE9 /* Assets.xcassets */; };
 		E68FE777217496FD00D24DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68FE775217496FD00D24DE9 /* LaunchScreen.storyboard */; };
-		E68FE782217496FD00D24DE9 /* CompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FE781217496FD00D24DE9 /* CompanionTests.swift */; };
-		E68FE78D217496FD00D24DE9 /* CompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FE78C217496FD00D24DE9 /* CompanionUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E68FE769217496F500D24DE9 /* Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Companion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68FE769217496F500D24DE9 /* Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Companion.app; path = "/goinfre/tmekwa/Desktop/Workspace/swift/Companion/42_companion/Companion/build/Debug-iphoneos/Companion.app"; sourceTree = "<absolute>"; };
 		E68FE76C217496F500D24DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E68FE76E217496F500D24DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E68FE771217496F500D24DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E68FE773217496FD00D24DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E68FE776217496FD00D24DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E68FE778217496FD00D24DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E68FE77D217496FD00D24DE9 /* CompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompanionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E68FE781217496FD00D24DE9 /* CompanionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionTests.swift; sourceTree = "<group>"; };
-		E68FE783217496FD00D24DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E68FE788217496FD00D24DE9 /* CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompanionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E68FE78C217496FD00D24DE9 /* CompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionUITests.swift; sourceTree = "<group>"; };
-		E68FE78E217496FD00D24DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E68FE77D217496FD00D24DE9 /* CompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CompanionTests.xctest; path = "/goinfre/tmekwa/Desktop/Workspace/swift/Companion/42_companion/Companion/build/Debug-iphoneos/CompanionTests.xctest"; sourceTree = "<absolute>"; };
+		E68FE788217496FD00D24DE9 /* CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CompanionUITests.xctest; path = "/goinfre/tmekwa/Desktop/Workspace/swift/Companion/42_companion/Companion/build/Debug-iphoneos/CompanionUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,20 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				E68FE76B217496F500D24DE9 /* Companion */,
-				E68FE780217496FD00D24DE9 /* CompanionTests */,
-				E68FE78B217496FD00D24DE9 /* CompanionUITests */,
-				E68FE76A217496F500D24DE9 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		E68FE76A217496F500D24DE9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E68FE769217496F500D24DE9 /* Companion.app */,
-				E68FE77D217496FD00D24DE9 /* CompanionTests.xctest */,
-				E68FE788217496FD00D24DE9 /* CompanionUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E68FE76B217496F500D24DE9 /* Companion */ = {
@@ -105,24 +86,6 @@
 				E68FE778217496FD00D24DE9 /* Info.plist */,
 			);
 			path = Companion;
-			sourceTree = "<group>";
-		};
-		E68FE780217496FD00D24DE9 /* CompanionTests */ = {
-			isa = PBXGroup;
-			children = (
-				E68FE781217496FD00D24DE9 /* CompanionTests.swift */,
-				E68FE783217496FD00D24DE9 /* Info.plist */,
-			);
-			path = CompanionTests;
-			sourceTree = "<group>";
-		};
-		E68FE78B217496FD00D24DE9 /* CompanionUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E68FE78C217496FD00D24DE9 /* CompanionUITests.swift */,
-				E68FE78E217496FD00D24DE9 /* Info.plist */,
-			);
-			path = CompanionUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +176,7 @@
 				Base,
 			);
 			mainGroup = E68FE760217496F500D24DE9;
-			productRefGroup = E68FE76A217496F500D24DE9 /* Products */;
+			productRefGroup = E68FE760217496F500D24DE9;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -265,7 +228,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E68FE782217496FD00D24DE9 /* CompanionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +235,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E68FE78D217496FD00D24DE9 /* CompanionUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
