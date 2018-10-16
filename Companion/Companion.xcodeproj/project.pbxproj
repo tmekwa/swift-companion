@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E68574B22175F6C0009FE3DA /* ApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68574B12175F6C0009FE3DA /* ApiController.swift */; };
 		E68FE76D217496F500D24DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FE76C217496F500D24DE9 /* AppDelegate.swift */; };
 		E68FE76F217496F500D24DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68FE76E217496F500D24DE9 /* ViewController.swift */; };
 		E68FE772217496F500D24DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68FE770217496F500D24DE9 /* Main.storyboard */; };
@@ -34,15 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E68FE769217496F500D24DE9 /* Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Companion.app; path = "/goinfre/tmekwa/Desktop/Workspace/swift/Companion/42_companion/Companion/build/Debug-iphoneos/Companion.app"; sourceTree = "<absolute>"; };
+		E68574AE2175E17C009FE3DA /* Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Companion.app; path = "/goinfre/tmekwa/Desktop/Workspace/IOS/swift-companion/Companion/build/Debug-iphoneos/Companion.app"; sourceTree = "<absolute>"; };
+		E68574AF2175E17C009FE3DA /* CompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CompanionTests.xctest; path = "/goinfre/tmekwa/Desktop/Workspace/IOS/swift-companion/Companion/build/Debug-iphoneos/CompanionTests.xctest"; sourceTree = "<absolute>"; };
+		E68574B02175E17C009FE3DA /* CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CompanionUITests.xctest; path = "/goinfre/tmekwa/Desktop/Workspace/IOS/swift-companion/Companion/build/Debug-iphoneos/CompanionUITests.xctest"; sourceTree = "<absolute>"; };
+		E68574B12175F6C0009FE3DA /* ApiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
 		E68FE76C217496F500D24DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E68FE76E217496F500D24DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E68FE771217496F500D24DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E68FE773217496FD00D24DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E68FE776217496FD00D24DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E68FE778217496FD00D24DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E68FE77D217496FD00D24DE9 /* CompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CompanionTests.xctest; path = "/goinfre/tmekwa/Desktop/Workspace/swift/Companion/42_companion/Companion/build/Debug-iphoneos/CompanionTests.xctest"; sourceTree = "<absolute>"; };
-		E68FE788217496FD00D24DE9 /* CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CompanionUITests.xctest; path = "/goinfre/tmekwa/Desktop/Workspace/swift/Companion/42_companion/Companion/build/Debug-iphoneos/CompanionUITests.xctest"; sourceTree = "<absolute>"; };
 		E68FE79E2174C13500D24DE9 /* SearchResultsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewCell.swift; sourceTree = "<group>"; };
 		E68FE7A02174C71D00D24DE9 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +92,7 @@
 				E68FE775217496FD00D24DE9 /* LaunchScreen.storyboard */,
 				E68FE778217496FD00D24DE9 /* Info.plist */,
 				E68FE7A02174C71D00D24DE9 /* SearchResultsViewController.swift */,
+				E68574B12175F6C0009FE3DA /* ApiController.swift */,
 			);
 			path = Companion;
 			sourceTree = "<group>";
@@ -111,7 +114,7 @@
 			);
 			name = Companion;
 			productName = Companion;
-			productReference = E68FE769217496F500D24DE9 /* Companion.app */;
+			productReference = E68574AE2175E17C009FE3DA /* Companion.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E68FE77C217496FD00D24DE9 /* CompanionTests */ = {
@@ -129,7 +132,7 @@
 			);
 			name = CompanionTests;
 			productName = CompanionTests;
-			productReference = E68FE77D217496FD00D24DE9 /* CompanionTests.xctest */;
+			productReference = E68574AF2175E17C009FE3DA /* CompanionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E68FE787217496FD00D24DE9 /* CompanionUITests */ = {
@@ -147,7 +150,7 @@
 			);
 			name = CompanionUITests;
 			productName = CompanionUITests;
-			productReference = E68FE788217496FD00D24DE9 /* CompanionUITests.xctest */;
+			productReference = E68574B02175E17C009FE3DA /* CompanionUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -227,6 +230,7 @@
 			files = (
 				E68FE76F217496F500D24DE9 /* ViewController.swift in Sources */,
 				E68FE7A12174C71D00D24DE9 /* SearchResultsViewController.swift in Sources */,
+				E68574B22175F6C0009FE3DA /* ApiController.swift in Sources */,
 				E68FE79F2174C13500D24DE9 /* SearchResultsViewCell.swift in Sources */,
 				E68FE76D217496F500D24DE9 /* AppDelegate.swift in Sources */,
 			);

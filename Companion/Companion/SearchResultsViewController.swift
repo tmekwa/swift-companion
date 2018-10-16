@@ -15,8 +15,6 @@ struct userSearched {
 
 class SearchResultsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    
-    
     var searchedUser:[userSearched] = []
     var reloader: Any!
     

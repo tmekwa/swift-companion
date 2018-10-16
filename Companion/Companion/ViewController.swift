@@ -8,11 +8,26 @@
 
 import UIKit
 
+var token: String = ""
+var uid: String = ""
+
+struct Message: Decodable {
+    let id: Int
+    let login: String
+    let url: String
+}
+
 class ViewController: UIViewController {
 
+    @IBOutlet weak var searchLoginText: UITextField!
+    let apiCall = ApiController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("View is loaded")
+
+        apiCall.getToken()
+        print("======================== \(token) =========================")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,7 +35,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func searchButton(_ sender: Any) {
+        let loginString = searchLoginText.text
+        
+        apiCall.getUser(login: loginString!)
+    }
 }
 
