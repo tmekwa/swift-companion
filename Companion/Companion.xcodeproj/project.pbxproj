@@ -35,9 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E68574AE2175E17C009FE3DA /* Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Companion.app; path = "/goinfre/tmekwa/Desktop/Workspace/IOS/swift-companion/Companion/build/Debug-iphoneos/Companion.app"; sourceTree = "<absolute>"; };
-		E68574AF2175E17C009FE3DA /* CompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CompanionTests.xctest; path = "/goinfre/tmekwa/Desktop/Workspace/IOS/swift-companion/Companion/build/Debug-iphoneos/CompanionTests.xctest"; sourceTree = "<absolute>"; };
-		E68574B02175E17C009FE3DA /* CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CompanionUITests.xctest; path = "/goinfre/tmekwa/Desktop/Workspace/IOS/swift-companion/Companion/build/Debug-iphoneos/CompanionUITests.xctest"; sourceTree = "<absolute>"; };
+		E673DC872179A98A00B0D611 /* Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Companion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E673DC882179A98A00B0D611 /* CompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CompanionTests.xctest; path = "/goinfre/tmekwa/Desktop/Workspace/IOS/swift-companion/Companion/build/Debug-iphoneos/CompanionTests.xctest"; sourceTree = "<absolute>"; };
+		E673DC892179A98A00B0D611 /* CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CompanionUITests.xctest; path = "/goinfre/tmekwa/Desktop/Workspace/IOS/swift-companion/Companion/build/Debug-iphoneos/CompanionUITests.xctest"; sourceTree = "<absolute>"; };
 		E68574B12175F6C0009FE3DA /* ApiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
 		E68FE76C217496F500D24DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E68FE76E217496F500D24DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				E68FE76B217496F500D24DE9 /* Companion */,
+				E673DC872179A98A00B0D611 /* Companion.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,7 +115,7 @@
 			);
 			name = Companion;
 			productName = Companion;
-			productReference = E68574AE2175E17C009FE3DA /* Companion.app */;
+			productReference = E673DC872179A98A00B0D611 /* Companion.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E68FE77C217496FD00D24DE9 /* CompanionTests */ = {
@@ -132,7 +133,7 @@
 			);
 			name = CompanionTests;
 			productName = CompanionTests;
-			productReference = E68574AF2175E17C009FE3DA /* CompanionTests.xctest */;
+			productReference = E673DC882179A98A00B0D611 /* CompanionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E68FE787217496FD00D24DE9 /* CompanionUITests */ = {
@@ -150,7 +151,7 @@
 			);
 			name = CompanionUITests;
 			productName = CompanionUITests;
-			productReference = E68574B02175E17C009FE3DA /* CompanionUITests.xctest */;
+			productReference = E673DC892179A98A00B0D611 /* CompanionUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */

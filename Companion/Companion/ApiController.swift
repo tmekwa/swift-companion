@@ -46,7 +46,7 @@ class ApiController: NSObject
         group.wait()
     }
     
-    func getUser(login: String) {
+    func getUser(login: String, with f: @escaping (Message) -> ()) {
         print("Login: \(login)")
         var request = URLRequest(url: URL(string: "https://api.intra.42.fr/v2/users/\(login)?access_token=\(token)")!)
         
@@ -64,8 +64,12 @@ class ApiController: NSObject
                             let json = String(bytes: data, encoding: .utf8)
                             //print("JSON========= \(json)")
                             let _messages = try JSONDecoder().decode(Message.self, from: (json?.data(using: .utf8)!)!)
-                            print("\(_messages.login)")
+                            print("\(_messages.first_name)")
+//                            print("\(json)")
                             print("json finished")
+                            DispatchQueue.main.async {
+                                f(_messages)
+                            }
                         }
                         catch (let err) {
                             print("Catch Error if its comming here: ", err)

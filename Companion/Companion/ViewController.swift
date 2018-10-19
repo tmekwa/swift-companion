@@ -11,12 +11,6 @@ import UIKit
 var token: String = ""
 var uid: String = ""
 
-struct Message: Decodable {
-    let id: Int
-    let login: String
-    let url: String
-}
-
 class ViewController: UIViewController {
 
     @IBOutlet weak var searchLoginText: UITextField!
@@ -38,8 +32,12 @@ class ViewController: UIViewController {
     
     @IBAction func searchButton(_ sender: Any) {
         let loginString = searchLoginText.text
-        
-        apiCall.getUser(login: loginString!)
+        searchedUser.removeAll()
+        apiCall.getUser(login: loginString!, with: {mssg in
+            print("Mss: ", mssg.login)
+            print("Mss: ", mssg.first_name)
+            searchedUser.append(mssg)
+        })
     }
 }
 
